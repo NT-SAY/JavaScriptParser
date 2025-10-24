@@ -183,39 +183,6 @@ Scanner is optimized for large projects:
 - Manual verification of findings is recommended
 - Does not replace dynamic security testing
 
-## 🔄 Development
-
-### Adding New Patterns
-To add new vulnerability types, update:
-1. `patterns` dictionary in constructor
-2. `severity_levels` dictionary
-3. `get_vuln_description` method
-
-### Extending Functionality
-The code is modular and easily extensible:
-- Adding new analyzers
-- Supporting additional report formats
-- Integrating with external security APIs
-
-## 📄 License
-
-[Specify license]
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📞 Support
-
-For issues and questions:
-- Create an issue in the repository
-- Check existing documentation
-- Review closed issues for similar problems
-
 ## 🚨 Disclaimer
 
 This tool is for educational and security research purposes only. Always ensure you have proper authorization before scanning systems. The authors are not responsible for any misuse of this tool.
